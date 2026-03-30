@@ -1,0 +1,74 @@
+.form-add-item{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: 0 auto 20px;
+}
+
+#add-item{
+  width: 320px;
+  padding: 14px 20px;
+  font-size: 16px;
+  display: block;
+  border-radius: 22px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  color: #1f2937;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02), 
+              inset 0 1px 1px rgba(255, 255, 255, 0.8);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#add-item:hover{
+  border-color: #d1d5db;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+}
+
+#add-item:focus{
+  border-color: #34d399;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.15), 
+              0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+
+.add-btn{
+  width: 130px;
+  padding: 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #34d399;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(52, 211, 153, 0.2);
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #10b981; /* Чуть темнее */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+}
+
+.add-btn:active {
+  transform: translateY(1px); /* "Прожимается" вниз */
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2);
+  background-color: #059669;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+  stroke:  #fff;
+  margin-right: 8px;
+}
+
+

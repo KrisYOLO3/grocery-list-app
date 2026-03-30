@@ -1,0 +1,61 @@
+.forsearch-item{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: 0 auto 30px;
+}
+
+#search-item{
+  width: 320px;
+  padding: 14px 20px;
+  font-size: 16px;
+  display: block;
+  border-radius: 22px;
+  background-color: #f9fafb; 
+  border: 1px solid #e5e7eb;
+  outline: none;
+  color: #4b5563;
+  transition: all 0.3s ease;
+}
+
+#search-item:hover {
+  background-color: #ffffff;
+  border-color: #d1d5db;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#search-item:focus {
+  background-color: #ffffff;
+  border-color: #9ca3af; /* Не такой яркий, как у "Добавить" */
+  box-shadow: 0 0 0 4px rgba(156, 163, 175, 0.1), 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.search-btn{
+  width: 130px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b5563;
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+.search-btn:hover {
+  background-color: #d1d5db;
+  color: #1f2937;
+  transform: translateY(-1px);
+}
+
+.search-btn:active {
+  transform: translateY(0px);
+  background-color: #9ca3af;
+}

@@ -1,0 +1,20 @@
+.logo-icon{
+    color:  #135444;
+    font-size: 40px;
+}
+
+.app-header {
+  padding: 40px 20px 20px;
+  text-align: center;
+  background-color: transparent; 
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-text{
+    margin-left: 20px;
+}
