@@ -1,6 +1,6 @@
 # Grocery List
 
-A simple React + Vite grocery list application.
+A simple React grocery list application.
 
 # Features
 Persistent Data: Uses localStorage with lazy state initialization. Your list is automatically saved and remains available even after a page refresh.
